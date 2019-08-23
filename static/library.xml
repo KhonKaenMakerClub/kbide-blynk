@@ -1,0 +1,552 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">blynk_begin</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="CsMxq#7ObeW|9oJCt0cO">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$VQRTZ7.-GkkM|!9G[/M">
+            <field name="TEXT">Blynk begin</field>
+            <next>
+              <block type="field_input" id="NVLH{d(oofZcriw?MP:z">
+                <field name="TEXT">-auth token-</field>
+                <field name="FIELDNAME">auth</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">start using blynk with token provided</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="hu~scjL%W%TwT%ZK|~_$"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="i}q200VVq,{hJ;QQEA6G"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">blynk_begin_wifi</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="CsMxq#7ObeW|9oJCt0cO">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$VQRTZ7.-GkkM|!9G[/M">
+            <field name="TEXT">Blynk begin</field>
+            <next>
+              <block type="field_input" id="NVLH{d(oofZcriw?MP:z">
+                <field name="TEXT">-auth token-</field>
+                <field name="FIELDNAME">auth</field>
+                <next>
+                  <block type="field_static" id="jqXph(_].obAva[c^3_$">
+                    <field name="TEXT">ssid</field>
+                    <next>
+                      <block type="field_input" id="CV0~5/GT/A{Zm8g1BT-;">
+                        <field name="TEXT"/>
+                        <field name="FIELDNAME">ssid</field>
+                        <next>
+                          <block type="field_static" id="F4#O%b@BsWF!Z6fheP^[">
+                            <field name="TEXT">password</field>
+                            <next>
+                              <block type="field_input" id="@ef~_-NbnqR~,Qen;uaE">
+                                <field name="TEXT"/>
+                                <field name="FIELDNAME">password</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">start using blynk and connect wifi</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="hu~scjL%W%TwT%ZK|~_$"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="i}q200VVq,{hJ;QQEA6G"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">blynk_begin_wifi_local_server</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="CsMxq#7ObeW|9oJCt0cO">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$VQRTZ7.-GkkM|!9G[/M">
+            <field name="TEXT">Blynk begin (private server)</field>
+            <next>
+              <block type="field_input" id="NVLH{d(oofZcriw?MP:z">
+                <field name="TEXT">-auth token-</field>
+                <field name="FIELDNAME">auth</field>
+                <next>
+                  <block type="field_static" id="jqXph(_].obAva[c^3_$">
+                    <field name="TEXT">ssid</field>
+                    <next>
+                      <block type="field_input" id="CV0~5/GT/A{Zm8g1BT-;">
+                        <field name="TEXT"/>
+                        <field name="FIELDNAME">ssid</field>
+                        <next>
+                          <block type="field_static" id="F4#O%b@BsWF!Z6fheP^[">
+                            <field name="TEXT">password</field>
+                            <next>
+                              <block type="field_input" id="@ef~_-NbnqR~,Qen;uaE">
+                                <field name="TEXT"/>
+                                <field name="FIELDNAME">password</field>
+                                <next>
+                                  <block type="field_static" id=",r61mivkF@d*[/YFK,Rq">
+                                    <field name="TEXT">host</field>
+                                    <next>
+                                      <block type="field_input" id="V!dLaS7Kz4h(%KEXAKbB">
+                                        <field name="TEXT"/>
+                                        <field name="FIELDNAME">host</field>
+                                        <next>
+                                          <block type="field_static" id="~AnWB/)~mDr(`G67?AAg">
+                                            <field name="TEXT">port</field>
+                                            <next>
+                                              <block type="field_number" id="=@VtX2[8`R5N]A|~0e/.">
+                                                <field name="VALUE">8080</field>
+                                                <field name="FIELDNAME">port</field>
+                                                <field name="MIN">1</field>
+                                                <field name="MAX">99999</field>
+                                                <field name="PRECISION">0</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">start using private blynk server and connect wifi</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="hu~scjL%W%TwT%ZK|~_$"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="i}q200VVq,{hJ;QQEA6G"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">blynk_run</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="CsMxq#7ObeW|9oJCt0cO">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$VQRTZ7.-GkkM|!9G[/M">
+            <field name="TEXT">Blynk run</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">run blynk (put inside loop)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="hu~scjL%W%TwT%ZK|~_$"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="i}q200VVq,{hJ;QQEA6G"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="NONE"/>
+    <field name="NAME">blynk_write</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">NONE</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="VlGRxKUN}JH:Suc-n+t[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk on Virtual Pin</field>
+            <next>
+              <block type="field_dropdown" id="nO7$C@cg{L5:aeJ~a}wp">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+                <field name="FIELDNAME">vpin</field>
+                <field name="USER0">V0</field>
+                <field name="CPU0">V0</field>
+                <field name="USER1">V1</field>
+                <field name="CPU1">V1</field>
+                <field name="USER2">V2</field>
+                <field name="CPU2">V2</field>
+                <field name="USER3">V3</field>
+                <field name="CPU3">V3</field>
+                <field name="USER4">V4</field>
+                <field name="CPU4">V4</field>
+                <field name="USER5">V5</field>
+                <field name="CPU5">V5</field>
+                <next>
+                  <block type="field_static" id="Qx+Q^u|jk]{w;!gLrZcf">
+                    <field name="TEXT">data received</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="Mqvx;BQq@M_XS_74S:sa">
+            <field name="INPUTNAME">statement</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="oEGWy=oD8h/dwwpKl(9u"/>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">Call when client write virtual pin (aka BLYNK_WRITE)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">blynk_param_int</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="VlGRxKUN}JH:Suc-n+t[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk get received integer data</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">use this block inside on data received to get the params</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="lT[+ag2b;0swBS[53Myw"/>
+      <block type="type_group" id="npl%xKd]+jvfk!o2wFCL">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="m-RbgrpG,E#)Bs*9Jv?j">
+            <field name="TYPE">int</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id=".u|`=.[YsAnxZh@3E|#4"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">blynk_param_double</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="VlGRxKUN}JH:Suc-n+t[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk get received decimal data</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">use this block inside on data received to get the params</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="U+9lc{igWmE=@IdeY-iC"/>
+      <block type="type_group" id="npl%xKd]+jvfk!o2wFCL">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="m-RbgrpG,E#)Bs*9Jv?j">
+            <field name="TYPE">double</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id=".u|`=.[YsAnxZh@3E|#4"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">blynk_param_str</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="VlGRxKUN}JH:Suc-n+t[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk get received string data</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">use this block inside on data received to get the params</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="{${`yWkP`DsqdaAZC~4k"/>
+      <block type="type_string" id="Y8bU$ONm*SY~t!^eK4w-"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">blynk_push_data</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="O1h(0kYQ897J=MPV{Tzh">
+        <field name="INPUTNAME">NAME</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk write Virtual Pin</field>
+            <next>
+              <block type="field_dropdown" id="#x-UenUp0kd|cZBj[}P+">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+                <field name="FIELDNAME">vpin</field>
+                <field name="USER0">V0</field>
+                <field name="CPU0">V0</field>
+                <field name="USER1">V1</field>
+                <field name="CPU1">V1</field>
+                <field name="USER2">V2</field>
+                <field name="CPU2">V2</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="gR8c;yOG9%?^7hw*4~o+"/>
+          <block type="type_group" id="akxnf~fb2KfW4nqOzxai">
+            <mutation types="3"/>
+            <value name="TYPE0">
+              <block type="type_boolean" id="l!K{np@2#n}.*q*tQ{u{"/>
+            </value>
+            <value name="TYPE1">
+              <block type="type_string" id=")fV/$Axy*iP*qnu2_Nz?"/>
+            </value>
+            <value name="TYPE2">
+              <block type="type_number" id="?z(0.}X0/)2)M8)`1VOz"/>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">write data to virtual pin (please delay &gt;100 ms between call)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="54XJI0;=u*)t%j+e@HCN"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="F}kM+{ueq@uda=wtP^BL"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^`_]wY,qi,,q%|~+;Dzl" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="NONE"/>
+    <field name="NAME">blynk_read</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">NONE</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="VlGRxKUN}JH:Suc-n+t[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="D-~y4E39N@5GsOFTH1_f">
+            <field name="TEXT">Blynk on Virtual Pin</field>
+            <next>
+              <block type="field_dropdown" id="nO7$C@cg{L5:aeJ~a}wp">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+                <field name="FIELDNAME">vpin</field>
+                <field name="USER0">V0</field>
+                <field name="CPU0">V0</field>
+                <field name="USER1">V1</field>
+                <field name="CPU1">V1</field>
+                <field name="USER2">V2</field>
+                <field name="CPU2">V2</field>
+                <field name="USER3">V3</field>
+                <field name="CPU3">V3</field>
+                <field name="USER4">V4</field>
+                <field name="CPU4">V4</field>
+                <field name="USER5">V5</field>
+                <field name="CPU5">V5</field>
+                <next>
+                  <block type="field_static" id="Qx+Q^u|jk]{w;!gLrZcf">
+                    <field name="TEXT">data request</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="Mqvx;BQq@M_XS_74S:sa">
+            <field name="INPUTNAME">statement</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="oEGWy=oD8h/dwwpKl(9u"/>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="iOgUlSZqAgS.781[Dl@m" deletable="false" movable="false">
+        <field name="TEXT">Call when client request data on virtual pin (aka BLYNK_READ)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="S}.2D%A7~+QN8[9ee@we" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3D0j+*IRUl{I^8b%`VI7">
+        <mutation colour="#a55b93"/>
+        <field name="HUE">315</field>
+      </block>
+    </value>
+  </block></xml>
